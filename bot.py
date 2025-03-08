@@ -10,7 +10,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = .env
 
 DOWNLOAD_FOLDER = "downloads"
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
